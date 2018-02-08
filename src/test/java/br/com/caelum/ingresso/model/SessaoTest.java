@@ -6,7 +6,6 @@ import java.time.LocalTime;
 
 import org.junit.Test;
 
-import junit.framework.Assert;
 
 public class SessaoTest {
 	@Test

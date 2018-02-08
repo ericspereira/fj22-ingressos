@@ -30,7 +30,7 @@ public class Filme {
     }
     
     
-    public Filme(String nome, Duration duracao, String genero, BigDecimal precoss) {
+    public Filme(String nome, Duration duracao, String genero, BigDecimal preco) {
 		this.nome = nome;
 		this.duracao = duracao;
 		this.genero = genero;
@@ -41,7 +41,17 @@ public class Filme {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setDuracao(Duration duracao) {
+		this.duracao = duracao;
+	}
+
+
+	public void setPreco(BigDecimal preco) {
+		this.preco = preco;
+	}
+
+
+	public void setId(Integer id) {
         this.id = id;
     }
 
