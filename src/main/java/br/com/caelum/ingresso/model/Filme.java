@@ -80,8 +80,9 @@ public class Filme {
     }
 
 
-	public Lugar getPreco() {
-		// TODO Auto-generated method stub
-		return null;
+	public BigDecimal getPreco() {
+		return preco;
 	}
+
+
 }

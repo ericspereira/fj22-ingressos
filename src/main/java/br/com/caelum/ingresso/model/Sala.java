@@ -79,9 +79,10 @@ public class Sala {
         return optional.get().getId();
     }
 
-	public Sala getPreco() {
-		// TODO Auto-generated method stub
-		return null;
-	}    
+	public BigDecimal getPreco() {
+		return preco;
+	}
+
+	   
     
 }

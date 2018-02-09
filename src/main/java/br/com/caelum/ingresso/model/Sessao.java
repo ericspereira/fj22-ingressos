@@ -56,10 +56,31 @@ public class Sessao {
 		this.filme = filme;
 	}
 
-	public Object getPreco() {
-		// TODO Auto-generated method stub
-		return null;
+	public Integer getId() {
+		return id;
 	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public Sala getSala() {
+		return sala;
+	}
+
+	public void setSala(Sala sala) {
+		this.sala = sala;
+	}
+
+	public BigDecimal getPreco() {
+		return preco;
+	}
+
+	public void setPreco(BigDecimal preco) {
+		this.preco = preco;
+	}
+
+	
 	
 
 }
